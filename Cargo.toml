@@ -1,0 +1,17 @@
+[package]
+name = "maybe-owned"
+version = "0.1.0"
+description = "--TODO--"
+authors = ["Paul Horn <opensource@developer.knutwalker.engineer>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/knutwalker/maybe-owned/"
+repository = "https://github.com/knutwalker/maybe-owned/"
+categories = []
+keywords = []
+
+[dependencies]
+serde = { version = "1.0.119", optional = true }
+
+[package.metadata.docs.rs]
+features = [ "serde" ]
